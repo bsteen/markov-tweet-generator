@@ -6,7 +6,10 @@ Casey Campbell, Miguel Hernandez, and Benjamin Steenkamer
 (Due December 13th) (no red-team)  
 The task is to take in sample text and generate a tweet (280 characters) in the style of that text using Markov Chains.
 For super-extra credit consume a user name from Twitter and grab some tweets by the person as your source material.  
-This needs to be installed: `pip install tweepy`  
+This needs to be installed: `pip3 install tweepy`  
+Python 3 must be installed for the `get_tweets.py` script.
+API keys from `get_tweets.py` have been purposely removed.
+Tested to work on Linux.  
 ## Resources Used: 
 [http://www.bitsofpancake.com/programming/markov-chain-text-generator/](http://www.bitsofpancake.com/programming/markov-chain-text-generator/)  
 [http://docs.tweepy.org/en/v3.5.0/api.html](http://docs.tweepy.org/en/v3.5.0/api.html)  
