@@ -3,7 +3,8 @@
 #include <fstream>
 #include <vector>
 #include <cstdlib>
-#include <time.h> 
+#include <time.h>
+#include <unistd.h>
 using namespace std;
 
 class Word{
@@ -199,11 +200,16 @@ int main(int argc, char* argv[]){
     srand(time(NULL));
     
     if(arguement.at(0) == '@'){
-        cout << "Fecthing tweets from " << arguement << endl;
+        cout << "Fetching tweets from user " << arguement << " ..." << endl;
         
-        // Need to sanitize the user name
-        // arguement = arguement.substr(1, );  //Strip off the @ symbol
-        // cout << "Created file of tweets: textfiles/" << arguement << ".txt" << endl;
+        string arg = "python3 get_tweets.py " + arguement;
+        int err = system(arg.c_str());
+        
+        if(err == -1){
+            cout << "Error running python tweet fetcher" << endl;
+        }
+        
+        arguement = "textfiles/" + arguement.substr(1, arguement.length()) + ".txt";
     }
     
     cout << "Parsing text file..." << endl;
@@ -228,7 +234,7 @@ int main(int argc, char* argv[]){
         
     }
     else{
-        cout << "File "<< arguement << " is not found" << endl << endl;
+        cout << "File "<< arguement << " is not found" << endl;
     }
     return 0;
 }
