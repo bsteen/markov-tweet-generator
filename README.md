@@ -36,11 +36,12 @@ If you instead give the generator a twitter user name, the main program will cal
 This file uses the Twitter API to get the last 200 tweets by a user. It then puts these tweets in a file called
 "textfiles/user-name-here.txt". The python script will then return control to the main program. The main program will
 open the newly created text file and use its contents to generate tweets.  
+  
 Regardless of how the source text file is created, the program will generate 10 tweets and then ask you if you want to 
 generate 10 more. If you select "no," the program will exit.  
 
 ## Resources Used: 
-<http://www.bitsofpancake.com/programming/markov-chain-text-generator/>
-<http://docs.tweepy.org/en/v3.5.0/api.html>
-<https://gist.github.com/yanofsky/5436496>
-<http://adilmoujahid.com/posts/2014/07/twitter-analytics/>
+<http://www.bitsofpancake.com/programming/markov-chain-text-generator/>  
+<http://docs.tweepy.org/en/v3.5.0/api.html>  
+<https://gist.github.com/yanofsky/5436496>  
+<http://adilmoujahid.com/posts/2014/07/twitter-analytics/>  
