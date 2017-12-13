@@ -221,7 +221,7 @@ int main(int argc, char* argv[]){
         int err = system(arg.c_str());  // Use the python file to pull tweets from by user and store them in a text file.
         
         if(err == -1){
-            cout << "Error running get_tweets.py" << endl;
+            cout << "Error running get_tweets.py. Is python3 installed?" << endl;
         }
         
         arguement = "textfiles/" + arguement.substr(1, arguement.length()) + ".txt";
