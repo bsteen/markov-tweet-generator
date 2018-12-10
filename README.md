@@ -38,7 +38,7 @@ This file uses the Twitter API to get the last 200 tweets by a user. It then put
 open the newly created text file and use its contents to generate tweets.  
   
 Regardless of how the source text file is created, the program will generate 10 tweets and then ask you if you want to 
-generate 10 more. If you select "no," the program will exit. The generator may create very short tweets by chance, and in most cases, the tweets with be gibberish.  
+generate 10 more. If you select "no," the program will exit. The generator may create very short tweets by chance, and in most cases, the tweets will be gibberish.  
 
 ## Resources Used: 
 <http://www.bitsofpancake.com/programming/markov-chain-text-generator/>  
