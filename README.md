@@ -11,7 +11,7 @@ For super-extra credit consume a user name from Twitter and grab some tweets by 
 Python 3 must be installed for the `get_tweets.py` script to run.  
 This API needs to be installed: `sudo pip3 install tweepy`  
 Twitter API keys from `get_tweets.py` have been purposely removed. You must provide your own!  
-Tested to work on GNU/Linux.  
+Tested to work on Linux Mint 18.  
 
 ## How To Use  
 To compile the program, type: `make`  
