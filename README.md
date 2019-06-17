@@ -25,7 +25,7 @@ you will only be able to read from local text files.
 To run the program, type `./markov_generator` followed by the path to a text file or a Twitter user name.
 The Twitter user name must have the "@" symbol in front of it. Here are some examples:  
 `./markov_generator textfiles/brady.txt`  
-`./markov_generator @Vinesauce`  
+`./markov_generator @user_name`  
   
 If you give the program a text file, it will read each line as a new "tweet". Simply add a new line at the end of
 every sentence if you want the program to consider each line as a separate tweet. Shorter sentences/lines will cause the generator
