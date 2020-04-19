@@ -1,6 +1,6 @@
 # Project 3: Markovian Tweets
 CPEG 676-010, Fall 2017 (http://sec.prof.ninja/projects/)  
-**(C) Casey Campbell, Miguel Hernandez, and Benjamin Steenkamer. See LICENSE file for usage details.**
+**(C) Casey Campbell, Miguel Hernandez, and Benjamin Steenkamer, 2017 - 2020. See LICENSE file for usage details.**
 
 ## Team Members: 
 Casey Campbell, Miguel Hernandez, and Benjamin Steenkamer.  
